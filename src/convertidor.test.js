@@ -11,4 +11,15 @@ describe("convertir", () => {
       expect(convertir(2)).toEqual("II");
     });
   });
-  
+
+  describe("convertir", () => {
+    it("deberia convertir el numero 5 en V", () => {
+      expect(convertir(5)).toEqual("V");
+    });
+  });
+
+//   describe("convertir", () => {
+//     it("deberia convertir el numero 10 en X", () => {
+//       expect(convertir(10)).toEqual("X");
+//     });
+//   });  

@@ -7,6 +7,10 @@ function convertir(num) {
     {
         return "II";
     }
+    if(num == 5)
+        {
+            return "V";
+        }
   }
   
   export default convertir;
