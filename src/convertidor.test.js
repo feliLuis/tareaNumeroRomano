@@ -5,3 +5,10 @@ describe("convertir", () => {
     expect(convertir(1)).toEqual("I");
   });
 });
+
+describe("convertir", () => {
+    it("deberia convertir el numero 2 en II", () => {
+      expect(convertir(2)).toEqual("II");
+    });
+  });
+  
