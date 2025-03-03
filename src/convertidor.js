@@ -19,6 +19,10 @@ function convertir(num) {
     {
        return "L";
     }
+    if(num == 100)
+    {
+       return "C";
+    }
   }
   
   export default convertir;
