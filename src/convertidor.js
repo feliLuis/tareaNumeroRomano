@@ -15,6 +15,10 @@ function convertir(num) {
     {
        return "X";
     }
+    if(num == 50)
+    {
+       return "L";
+    }
   }
   
   export default convertir;

@@ -23,3 +23,9 @@ describe("convertir", () => {
       expect(convertir(10)).toEqual("X");
     });
   });  
+  
+  describe("convertir", () => {
+    it("deberia convertir el numero 50 en L", () => {
+      expect(convertir(50)).toEqual("L");
+    });
+  });  
