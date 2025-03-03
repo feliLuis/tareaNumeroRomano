@@ -8,9 +8,13 @@ function convertir(num) {
         return "II";
     }
     if(num == 5)
-        {
-            return "V";
-        }
+    {
+       return "V";
+    }
+    if(num == 10)
+    {
+       return "X";
+    }
   }
   
   export default convertir;

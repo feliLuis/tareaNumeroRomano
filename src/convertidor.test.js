@@ -18,8 +18,8 @@ describe("convertir", () => {
     });
   });
 
-//   describe("convertir", () => {
-//     it("deberia convertir el numero 10 en X", () => {
-//       expect(convertir(10)).toEqual("X");
-//     });
-//   });  
+  describe("convertir", () => {
+    it("deberia convertir el numero 10 en X", () => {
+      expect(convertir(10)).toEqual("X");
+    });
+  });  
