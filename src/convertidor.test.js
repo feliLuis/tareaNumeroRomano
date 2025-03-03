@@ -35,3 +35,9 @@ describe("convertir", () => {
       expect(convertir(100)).toEqual("C");
     });
   });  
+
+  describe("convertir", () => {
+    it("deberia convertir el numero 500 en D", () => {
+      expect(convertir(500)).toEqual("D");
+    });
+  });  

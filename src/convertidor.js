@@ -7,6 +7,10 @@ function convertir(num) {
     {
         return "II";
     }
+    if(num == 3)
+    {
+        return "III";
+    }
     if(num == 5)
     {
        return "V";
@@ -22,6 +26,10 @@ function convertir(num) {
     if(num == 100)
     {
        return "C";
+    }
+    if(num == 500)
+    {
+       return "D";
     }
   }
   
